@@ -43,10 +43,10 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 * [x] You built a useForm hook in the guided project this week. You will probably need to use that as a guide to complete this step. However, try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 ### Test the Checkout Form
-* [ ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
-* [ ] Fill out code necessary to test that that Checkout form renders without errors.
-* [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
+* [x] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
+* [x] Fill out code necessary to test that that Checkout form renders without errors.
+* [x] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
+* [x] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
 ## Important Notes
 * Again, unlike other projects, the local server used here can not be accessed through the browser. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.
@@ -88,9 +88,13 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What are the main differences between a stateful and a functional component?
+  > Functional components are just procedures which can take in external inputs (props) in order to return something to DOM. Stateful components can hold data in a state inside the component, then use that data to do something which renders to DOM.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+  > componentWillMount -- called before comp is mounted to the DOM. ComponentWillUpdate is called before state changes.
 
 3. Define stateful logic.
+  > Any code that creates or manipulates state, like hooks.
 
 4. What are the three step of creating a successful test? What is done in each phase?
+  > Arrange - define the elements to be tested. Act - do something to those elements. Assert -  set up expectations for what you want those elements to do.
